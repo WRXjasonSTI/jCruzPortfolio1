@@ -1,5 +1,5 @@
 # jCruzPortfolio1
-Mobile Compatible Portfolio with External CSS Integration
+Mobile Compatible Portfolio with External CSS Integration (Bootstrap CDN)
 
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
