@@ -10,34 +10,95 @@
 
 <body class="bg-light text-dark">
     
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-info border">
-      <a class="navbar-brand " href="index.html">Home</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-          </li>                      
-        </ul>
-      </div>        
-    </nav>
+    <!-- Navbar Set for portfolio.html -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info border">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+      </li>
+        <li class="nav-item active">
+            <a class="nav-link navbar-brand" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>                      
+      </ul>
+    </nav>        
 
-<!-- vertical cards with links to other github projects?-->
+  <!-- Jumbotron mini profile -->
+  <!-- <div class="container-fluid"> -->
+    <div class="jumbotron bg-secondary text-light">
+      <h2 class="display-4 font-weight-bold">Portfolio</h2>
+      <p class="lead">Here is my growing list of completed and in-process projects.</p>
+    </div>
+  <!-- </div> -->
 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2017/06/10/07/15/joystick-2389216_1280.png" class="card-img-top" alt="portfolioGame">
+        <div class="card-body">
+          <h5 class="card-title">Platformer Game</h5>
+          <p class="card-text">A platformer-style RPG.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://github.com/WRXjasonSTI" target="_blank" class="card-link btn btn-primary">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2017/06/10/07/18/list-2389219_1280.png" class="card-img-top" alt="portfolioChecklist">
+        <div class="card-body">
+          <h5 class="card-title">Checklist Program</h5>
+          <p class="card-text">A Desktop program designed for productivity.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://github.com/WRXjasonSTI" target="_blank" class="card-link btn btn-primary">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2016/10/28/16/31/website-1778529_1280.png" class="card-img-top" alt="portfolioNews">
+        <div class="card-body">
+          <h5 class="card-title">News Aggregator</h5>
+          <p class="card-text">A website that compiles tagged news articles.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://github.com/WRXjasonSTI" target="_blank" class="card-link btn btn-primary">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="https://cdn.pixabay.com/photo/2016/04/01/11/09/cartoon-1300224_1280.png" class="card-img-top" height="285px" alt="portfolioApp">
+        <div class="card-body">
+          <h5 class="card-title">News Aggregator for Mobile</h5>
+          <p class="card-text">Mobile app of the News Aggregator.</p>
+        </div>
+        <div class="card-body">
+          <a href="https://github.com/WRXjasonSTI" target="_blank" class="card-link btn btn-primary">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Repeating Footer Section -->
       <div class="row">
         <div class="col-lg-12">
           <div class="card">
             <div class="card-body">
               <div class="text-right">
-                <!-- <img class="" src="http://placehold.it/50x50" alt=""> -->
                 <p>&copy; Jason Cruz 2020</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+    <!-- For future carousel integration
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+
   </body>
 </html>

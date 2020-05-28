@@ -1,5 +1,16 @@
 # jCruzPortfolio1
+
+Published work here: https://wrxjasonsti.github.io/jCruzPortfolio1/
+
 Mobile Compatible Portfolio with External CSS Integration (Bootstrap CDN)
+
+Hello, and thank you for viewing my repository! The following website is a working portfolio for my work as a web developer.
+
+The website displays a basic handle on the basic BootstrapCDN classes that focus on CSS, and no JavaScript. Bootstrap is a public content delivery network that allows users to use a pre-built CSS Stylesheet.
+
+The website's main features are Bootstrap's Navbar, Jumbotron, Cards, and Form elements.
+
+Please let me know of any suggestions you may have!
 
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
