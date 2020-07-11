@@ -2,11 +2,11 @@
 
 Published work here: https://wrxjasonsti.github.io/jCruzPortfolio1/
 
-Mobile Compatible Portfolio with External CSS Integration (Bootstrap CDN)
+Mobile Compatible Portfolio with External CSS Integration (Bulma CDN)
 
 Hello, and thank you for viewing my repository! The following website is a working portfolio for my work as a web developer.
 
-The website displays a basic handle on the basic BootstrapCDN classes that focus on CSS, and no JavaScript. Bootstrap is a public content delivery network that allows users to use a pre-built CSS Stylesheet.
+The website displays a basic handle on the basic Bulma classes that focus on CSS, and minimal JavaScript. Bootstrap is a public content delivery network that allows users to use a pre-built CSS Stylesheet.
 
 The website's main features are Bootstrap's Navbar, Jumbotron, Cards, and Form elements.
 
@@ -101,4 +101,4 @@ You are required to submit the following:
 
 - - -
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
